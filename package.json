@@ -1,0 +1,21 @@
+{
+  "name": "gobo-mod",
+  "version": "1.0.0",
+  "description": "A Scratch-like mod with TurboWarp engine",
+  "main": "main.js",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 3000"
+  },
+  "keywords": [
+    "scratch",
+    "turbowarp",
+    "gobo",
+    "mod"
+  ],
+  "author": "Letgocodingok",
+  "license": "MIT",
+  "dependencies": {
+    "@turbowarp/scratch-vm": "latest"
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gobo Mod</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Gobo Mod</h1>
+    <button id="run-button">Run</button>
+    <button id="stop-button">Stop</button>
+  </header>
+
+  <main>
+    <section id="blocks-area">
+      <h2>Blocks</h2>
+      <div id="blocks-container">
+        <p>Gobo blocks will go here.</p>
+      </div>
+    </section>
+
+    <section id="stage-area">
+      <h2>Stage</h2>
+      <canvas id="stage" width="480" height="360"></canvas>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@turbowarp/scratch-vm@latest/dist/scratch-vm.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
